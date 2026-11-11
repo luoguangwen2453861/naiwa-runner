@@ -1,0 +1,17 @@
+# 奶蛙跑酷 · 本地忽略规则
+# （根仓库的 .gitignore 已覆盖这些；放在这里是为了让本目录可以独立成库）
+
+# 构建产物：由 tools/build.py --dist 生成
+/dist/
+
+# 测试产物：CDP 截图与临时 demo 页面
+/shots/
+
+# Chrome 调试用配置目录
+/.chrome-profile/
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
